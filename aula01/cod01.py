@@ -19,3 +19,10 @@ mensagem = "O faturamento da loja foe de tanto" #
 email = "ronaldorhoney6910@gmail.com" # string -> texto
 
 teve_lucro = True #tipo -> boolean
+
+#mod -> % resto da divisão
+tempo_contrato = 170
+tempo_anos = 170 / 12
+print("Tempo em anos ", int(tempo_anos))
+tempo_meses = 170 % 12
+print("Tempo em meses ", tempo_meses)
